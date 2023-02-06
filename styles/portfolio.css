@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+/* navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  font-weight: ;
+}
+/* Banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-subtitle{
+    font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.contact{
+    border-radius: 5px;
+  /* background-color: #fd6e0a; */
+  color: #fd6e0a;
+  font-weight: 800;
+  font-size: 20px;
+  border: 2px solid #fd6e0a;
+  padding: 18px 35px;
+  height: 66px;
+  
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section */
+.about{
+margin-top: 130px;
+/* background: #FFF8F3; */
+background-color: #ffcd2849;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: justify;
+
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  
+    
+}
+.about .info-title{
+font-size: 20px;
+color: #757575;
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+}

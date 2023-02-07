@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+section{
+  margin-top: 130px;
+}
 /* navigation */
 nav {
   display: flex;
@@ -30,6 +33,10 @@ nav {
   height: 64px;
   border-radius: 5px;
   background-color: #fd6e0a;
+}
+.image{
+  margin: 0px -90px -4px 60px;
+  /* padding-left: 100px; */
 }
 nav li {
   list-style: none;
@@ -92,7 +99,7 @@ text-align: justify;
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .section-description{
     font-size: 18px;
@@ -136,4 +143,56 @@ padding: 60px 30px 30px 30px;
 }
 .skill-description{
     color: #757575;
+}
+/* Resume style */
+
+.edu-ex{
+  display: flex;
+  gap: 24px
+  ;
+}
+.resume .title{
+  font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume .sub-title{
+color: #757575;
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.resume .description{
+color: #757575;
+}
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-button{
+  margin-top: 50px;
+  text-align: center;
+
+}
+/* contact style */
+.contact-1{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px ;
+}
+.contact-1 .section-title{
+  text-align: left;
+}
+.contact-1 input, textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+
+}
+.name-mail{
+  width: 461px;
+  height: 64px;
 }
